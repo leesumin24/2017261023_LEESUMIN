@@ -2,7 +2,7 @@
 
 # git 명령어
 
-## 1. 설정과 초기화
+### 1. 설정과 초기화
 ### 전역 사용자명/이메일 구성하기
 > git config - -global user.name “Your name”
 
@@ -21,5 +21,6 @@
 
 ### Git의 출력결과 색상 활성화하기
 > git config - -global color.ui “auto”
+
 
 # markdown 문법
