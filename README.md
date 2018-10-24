@@ -2,6 +2,8 @@
 - - -
 # 1. git 명령어
 
+## 1.1 설정과 초기화
+
 ### 전역 사용자명/이메일 구성하기
 > git config - -global user.name “Your name”
 
@@ -34,6 +36,8 @@
 ### 새로운 원격 저장소 추가하기
 > git remote add <원격 저장소> <저장소 url>
 
+## 1.2 기본적인 사용법
+
 ### 새로운 파일을 추가하거나 존재하는 파일 스테이징하고 커밋하기
 > git add <파일>
 
@@ -64,6 +68,8 @@ _[ ]는 선택적인 매개변수를 의미함_
 
 ### 이전 커밋을 수정하고 커밋 메시지를 재사용하기
 > git commit -C HEAD - -amend
+
+## 1.3 브랜치
 
 ### 지역 브랜치 목록 보기
 > git branch
@@ -115,6 +121,8 @@ _[ ]는 선택적인 매개변수를 의미함_
 > git branch -d <삭제할 브랜치>
 * 삭제할 브랜치가 현재 브랜치에 합쳐지지 않아도
 > git branch -D <삭제할 브랜치>
+
+## 1.4 git 이력
 
 ### 모든 이력 보기
 > git log
@@ -186,6 +194,8 @@ _시작 지점은 커밋명 or 브랜치명 or 태그명임_
 
 ### 로그에서 복사와 붙여 넣은 정보 보기
 > git log -C -C -p -1 <특정 지점>
+
+## 1.5 원격 저장소 
 
 ### 저장소 복제하기
 > git clone <저장소>
@@ -315,19 +325,14 @@ __참조링크__
     [Naver][2]
     [1]: http://google.com/ “구글”
     [2]: http://naver.com/ “네이버”
-    
-[Google][1]
-[Naver][2]
-[1]: http://google.com/ “구글”
-[2]: http://naver.com/ “네이버”
-
+   
+   
 __인라인링크__
 
     syntax: [Title](link)
     
     [Google](http://www.google.co.kr “구글”)
     
-[Google](http://www.google.co.kr “구글”)
 
 __url링크__
 
@@ -335,6 +340,7 @@ __url링크__
     <example@gmail.com/>
     
 <http://google.com/>
+
 <example@gmail.com/>
 
 ## 2.7 강조 Emphasis
@@ -350,7 +356,15 @@ __url링크__
     __굵게쓰기(bold)__
     
 _기울여쓰기(italic)_
+
 __굵게쓰기(bold)__
 
+## 2.8 인라인 코드 블럭 Inline Code Blocks
+``(Back quote)` 로 감싸진 텍스트
+
+    `인라인 코드 블럭`
+    
+`인라인 코드 블럭` 
 
 
+## 2.9 코드블럭
