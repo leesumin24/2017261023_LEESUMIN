@@ -235,8 +235,8 @@ _시작 지점은 커밋명 or 브랜치명 or 태그명임_
 - - - 
 
 # 2. markdown 문법
-
-### 제목 Headers
+## 2.1 제목 Headers
+### 글머리: 1~6까지만 지원
 
     # This is ans H1
     ## This is ans H2
@@ -245,17 +245,26 @@ _시작 지점은 커밋명 or 브랜치명 or 태그명임_
     ##### This is ans H5
     ###### This is ans H6
     
-_실행결과_
-> # This is ans H1
+# This is ans H1
+## This is ans H2
+### This is ans H3
+#### This is ans H4
+##### This is ans H5
+###### This is ans H6
 
-> ## This is ans H2
+## 2.2. 블럭인용 BlockQuote
 
-> ### This is ans H3
+    > This is a blockqute.
+    
+> This is a first blockqute.
+>> This is a second blockqute.
 
-> #### This is ans H4
+## 2.3. 목록 List
 
-> ##### This is ans H5
+    1. 첫번째
+    2. 두번째
+    3. 세번째
 
-> ###### This is ans H6
-
-
+1. 첫번째
+2. 두번째
+3. 세번째
