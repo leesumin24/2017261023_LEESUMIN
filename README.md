@@ -1,6 +1,8 @@
-## 2017261023_LEESUMIN
+### 2017261023_LEESUMIN
 - - -
-# git 명령어
+# 1. git 명령어
+
+___설정과 초기화___
 
 ### 전역 사용자명/이메일 구성하기
 > git config - -global user.name “Your name”
@@ -229,4 +231,4 @@ _시작 지점은 커밋명 or 브랜치명 or 태그명임_
 
 - - - 
 
-# markdown 문법
+# 2. markdown 문법
