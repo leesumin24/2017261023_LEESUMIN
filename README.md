@@ -23,7 +23,9 @@
 
 ### 새로운 저장소 초기화하기
 > mkdir /path/newDir
+
 > cd /path/newDir
+
 > git init
 
 ### 저장소 복제하기
@@ -34,6 +36,7 @@
 
 ### 새로운 파일을 추가하거나 존재하는 파일 스테이징하고 커밋하기
 > git add <파일>
+
 > git commit -m “<메시지>”
 
 ### 파일의 일부를 스테이징하기
@@ -133,7 +136,9 @@ _[ ]는 선택적인 매개변수를 의미함_
 
 ### HEAD보다 세 개 이전의 커밋 로그 보기
 > git log -1 HEAD-3
+
 > git log -1 HEAD^^^
+
 > git log -1 HEAD~1^^
 
 ### 두 지점 사이의 커밋 로그 보기
@@ -240,12 +245,17 @@ _시작 지점은 커밋명 or 브랜치명 or 태그명임_
     ##### This is ans H5
     ###### This is ans H6
     
-> 실행결과
+_실행결과_
 > # This is ans H1
+
 > ## This is ans H2
+
 > ### This is ans H3
+
 > #### This is ans H4
+
 > ##### This is ans H5
+
 > ###### This is ans H6
 
 
