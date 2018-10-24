@@ -232,7 +232,5 @@ _시작 지점은 커밋명 or 브랜치명 or 태그명임_
 # 2. markdown 문법
 
 ### 제목 Headers
-
-'#'으로 시작하는 텍스트
     # This is ans H1
 
