@@ -225,12 +225,13 @@ _시작 지점은 커밋명 or 브랜치명 or 태그명임_
 > git remote prune <원격 저장소>
 
 ### 원격 저장소를 제거하고 관련된 브랜치도 제거하기
-> git remote rm <원격 저장소>
+> git remote rm <원격 저장소> </br>
 
 - - - 
 
 # 2. markdown 문법
 
 ### 제목 Headers
-    # 제목
+    #
+으로 시작하는 
 
