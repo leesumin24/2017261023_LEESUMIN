@@ -284,18 +284,73 @@ __순서없는 목록(글머리 기호)__
 
     * 안드로이드
       * 안드로이드
-        * 안드로이드
         
     + 안드로이드
       + 안드로이드
-        + 안드로이드
         
     - 안드로이드
       - 안드로이드
-        -안드로이드
         
 * 안드로이드
-  * 안드로이드
-    * 
+  * 안드로이드 
+  
+## 2.5. 수평선 `<hr/>`
+
+    * * *
+    ***
+    *****
+    - - - 
+    -----------------------------------
+    
+- - -
+
+## 2.6 링크 Link
+
+__참조링크__
+
+    [link keyword][id]
+    [id]: URL "Optional Title here"
+    
+    [Google][1]
+    [Naver][2]
+    [1]: http://google.com/ “구글”
+    [2]: http://naver.com/ “네이버”
+    
+[Google][1]
+[Naver][2]
+[1]: http://google.com/ “구글”
+[2]: http://naver.com/ “네이버”
+
+__인라인링크__
+
+    syntax: [Title](link)
+    
+    [Google](http://www.google.co.kr “구글”)
+    
+[Google](http://www.google.co.kr “구글”)
+
+__url링크__
+
+    <http://google.com/>
+    <example@gmail.com/>
+    
+<http://google.com/>
+<example@gmail.com/>
+
+## 2.7 강조 Emphasis
+
+기울여쓰기(italic) : `*` 또는 `_` 로 감싸진 텍스트
+
+굵게쓰기(bold) : `**` 또는 `__` 로 감싸진 텍스트
+
+    *기울여쓰기(italic)*
+    _기울여쓰기(italic)_
+    
+    **굵게쓰기(bold)**
+    __굵게쓰기(bold)__
+    
+_기울여쓰기(italic)_
+__굵게쓰기(bold)__
+
 
 
